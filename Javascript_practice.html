@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Type Converter</h2>
+<h4>Value to be converted</h4>
+
+<p>Converting false to other types:</p>
+
+<!-- Start Value false to be converted -->
+<p id="False" style="font-family:courier"></p>
+<script>
+let x = false;
+document.getElementById("False").innerHTML =
+"Number : " + Number(x) + "<br>" +
+"String : " + String(x) + "<br>" +
+"Boolean: " + Boolean(x);
+</script>
+<!-- End of Value false was converted -->
+<hr>
+<!-- Start Value True to be converted -->
+<p>Converting true to other types:</p>
+<p id="True" style="font-family:courier"></p>
+<script>
+let ab = true;
+document.getElementById("True").innerHTML =
+"Number : " + Number(ab) + "<br>" +
+"String : " + String(ab) + "<br>" +
+"Boolean: " + Boolean(ab);
+</script>
+<!-- End of Value True was converted -->
+<hr>
+<!-- Start Value 0 to be converted -->
+<p>Converting the number 0 to other types:</p>
+
+<p id="zero" style="font-family:courier"></p>
+
+<script>
+let cd = 0;
+document.getElementById("zero").innerHTML =
+"Number : " + Number(cd) + "<br>" +
+"String : " + String(cd) + "<br>" +
+"Boolean: " + Boolean(cd);
+</script>
+<!-- End of Value 0 was converted -->
+<hr>
+<!-- Start Value 1 to be converted -->
+<p>Converting the number 1 to other types:</p>
+
+<p id="one" style="font-family:courier"></p>
+
+<script>
+let ac = 1;
+document.getElementById("one").innerHTML =
+"Number : " + Number(ac) + "<br>" +
+"String : " + String(ac) + "<br>" +
+"Boolean: " + Boolean(ac);
+</script>
+<!-- End of Value 1 was converted -->
+<hr>
+<!-- Start Value "0" to be converted -->
+<p>Converting the number "0" to other types:</p>
+
+<p id="zero2" style="font-family:courier"></p>
+
+<script>
+let ef = "0";
+document.getElementById("zero2").innerHTML =
+"Number : " + Number(ef) + "<br>" +
+"String : " + String(ef) + "<br>" +
+"Boolean: " + Boolean(ef);
+</script>
+<!-- End of Value "0" was converted -->
+<hr>
+<!-- Start Value "000" to be converted -->
+<p>Converting the string "000" to other types:</p>
+
+<p id="Zero3" style="font-family:courier"></p>
+
+<script>
+let fe = "000";
+document.getElementById("Zero3").innerHTML =
+"Number : " + Number(fe) + "<br>" +
+"String : " + String(fe) + "<br>" +
+"Boolean: " + Boolean(fe);
+</script>
+<!-- End of Value "000" was converted -->
+<hr>
+<!-- Start Value "1" to be converted -->
+<p>Converting the string "1" to other types:</p>
+
+<p id="No1" style="font-family:courier"></p>
+
+<script>
+let ba = "1";
+document.getElementById("No1").innerHTML =
+"Number : " + Number(ba) + "<br>" +
+"String : " + String(ba) + "<br>" +
+"Boolean: " + Boolean(ba);
+</script>
+<!-- End of Value "1" was converted -->
+<hr>
+<!-- Start Value NaN to be converted -->
+<p>Converting NaN to other types:</p>
+
+<p id="nan" style="font-family:courier"></p>
+
+<script>
+let ze = NaN;
+document.getElementById("nan").innerHTML =
+"Number : " + Number(ze) + "<br>" +
+"String : " + String(ze) + "<br>" +
+"Boolean: " + Boolean(ze);
+</script>
+<!-- End of Value NaN was converted -->
+<hr>
+<!-- Start Value Infinity to be converted -->
+<p>Converting Infinity to other types:</p>
+
+<p id="eight" style="font-family:courier"></p>
+
+<script>
+let ee = Infinity;
+document.getElementById("eight").innerHTML =
+"Number : " + Number(ee) + "<br>" +
+"String : " + String(ee) + "<br>" +
+"Boolean: " + Boolean(ee);
+</script>
+<!-- End of Value Infinity was converted -->
+<hr>
+<!-- Start Value -Infinity to be converted -->
+<p>Converting -Infinity to other types:</p>
+
+<p id="minus" style="font-family:courier"></p>
+
+<script>
+let wq = -Infinity;
+document.getElementById("minus").innerHTML =
+"Number : " + Number(wq) + "<br>" +
+"String : " + String(wq) + "<br>" +
+"Boolean: " + Boolean(wq);
+</script>
+<!-- End of Value -Infinity was converted -->
+<hr>
+<!-- Start Value "" to be converted -->
+<p>Converting an empty string to other types:</p>
+
+<p id="empty" style="font-family:courier"></p>
+
+<script>
+let we = "";
+document.getElementById("empty").innerHTML =
+"Number : " + Number(we) + "<br>" +
+"String : " + String(we) + "<br>" +
+"Boolean: " + Boolean(we);
+</script>
+<!-- End of Value "" was converted -->
+<hr>
+<!-- Start Value "20" to be converted -->
+<p>Converting a numeric string to other types:</p>
+
+<p id="ttwenty" style="font-family:courier"></p>
+
+<script>
+let tw = "20";
+document.getElementById("ttwenty").innerHTML =
+"Number : " + Number(tw) + "<br>" +
+"String : " + String(tw) + "<br>" +
+"Boolean: " + Boolean(tw);
+</script>
+<!-- End of Value "20" was converted -->
+<hr>
+<!-- Start Value "Twenty" to be converted -->
+<p>Converting a text string to other types:</p>
+
+<p id="song" style="font-family:courier"></p>
+
+<script>
+let tr = "twenty";
+document.getElementById("song").innerHTML =
+"Number : " + Number(tr) + "<br>" +
+"String : " + String(tr) + "<br>" +
+"Boolean: " + Boolean(tr);
+</script>
+<!-- End of Value "Twenty" was converted -->
+<hr>
+<!-- Start Value null to be converted -->
+<p>Converting null to other types:</p>
+
+<p id="nu" style="font-family:courier"></p>
+
+<script>
+let nn = null;
+document.getElementById("nu").innerHTML =
+"Number : " + Number(nn) + "<br>" +
+"String : " + String(nn) + "<br>" +
+"Boolean: " + Boolean(nn);
+</script>
+<!-- End of Value null was converted -->
+<hr>
+<!-- Start Value undifined to be converted -->
+<p>Converting undefined to other types:</p>
+
+<p id="unno" style="font-family:courier"></p>
+
+<script>
+let iu = undefined;
+document.getElementById("unno").innerHTML =
+"Number : " + Number(iu) + "<br>" +
+"String : " + String(iu) + "<br>" +
+"Boolean: " + Boolean(iu);
+</script>
+<!-- End of Value undifined was converted -->
+<hr>
+
+
+</body>
+</html>
