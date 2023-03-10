@@ -13,7 +13,7 @@
 <p>Converting false to other types:</p>
 
 <!-- Start Value false to be converted -->
-<p id="False" style="font-family:courier"></p>
+<p id="False"></p>
 <script>
 let x = false;
 document.getElementById("False").innerHTML =
@@ -25,7 +25,7 @@ document.getElementById("False").innerHTML =
 <hr>
 <!-- Start Value True to be converted -->
 <p>Converting true to other types:</p>
-<p id="True" style="font-family:courier"></p>
+<p id="True"></p>
 <script>
 let ab = true;
 document.getElementById("True").innerHTML =
@@ -35,10 +35,11 @@ document.getElementById("True").innerHTML =
 </script>
 <!-- End of Value True was converted -->
 <hr>
+
 <!-- Start Value 0 to be converted -->
 <p>Converting the number 0 to other types:</p>
 
-<p id="zero" style="font-family:courier"></p>
+<p id="zero"></p>
 
 <script>
 let cd = 0;
@@ -49,10 +50,11 @@ document.getElementById("zero").innerHTML =
 </script>
 <!-- End of Value 0 was converted -->
 <hr>
+
 <!-- Start Value 1 to be converted -->
 <p>Converting the number 1 to other types:</p>
 
-<p id="one" style="font-family:courier"></p>
+<p id="one"></p>
 
 <script>
 let ac = 1;
@@ -63,10 +65,11 @@ document.getElementById("one").innerHTML =
 </script>
 <!-- End of Value 1 was converted -->
 <hr>
+
 <!-- Start Value "0" to be converted -->
 <p>Converting the number "0" to other types:</p>
 
-<p id="zero2" style="font-family:courier"></p>
+<p id="zero2"></p>
 
 <script>
 let ef = "0";
@@ -77,10 +80,11 @@ document.getElementById("zero2").innerHTML =
 </script>
 <!-- End of Value "0" was converted -->
 <hr>
+
 <!-- Start Value "000" to be converted -->
 <p>Converting the string "000" to other types:</p>
 
-<p id="Zero3" style="font-family:courier"></p>
+<p id="Zero3"></p>
 
 <script>
 let fe = "000";
@@ -91,10 +95,11 @@ document.getElementById("Zero3").innerHTML =
 </script>
 <!-- End of Value "000" was converted -->
 <hr>
+
 <!-- Start Value "1" to be converted -->
 <p>Converting the string "1" to other types:</p>
 
-<p id="No1" style="font-family:courier"></p>
+<p id="No1"></p>
 
 <script>
 let ba = "1";
@@ -105,10 +110,11 @@ document.getElementById("No1").innerHTML =
 </script>
 <!-- End of Value "1" was converted -->
 <hr>
+
 <!-- Start Value NaN to be converted -->
 <p>Converting NaN to other types:</p>
 
-<p id="nan" style="font-family:courier"></p>
+<p id="nan"></p>
 
 <script>
 let ze = NaN;
@@ -119,10 +125,11 @@ document.getElementById("nan").innerHTML =
 </script>
 <!-- End of Value NaN was converted -->
 <hr>
+
 <!-- Start Value Infinity to be converted -->
 <p>Converting Infinity to other types:</p>
 
-<p id="eight" style="font-family:courier"></p>
+<p id="eight"></p>
 
 <script>
 let ee = Infinity;
@@ -133,10 +140,11 @@ document.getElementById("eight").innerHTML =
 </script>
 <!-- End of Value Infinity was converted -->
 <hr>
+
 <!-- Start Value -Infinity to be converted -->
 <p>Converting -Infinity to other types:</p>
 
-<p id="minus" style="font-family:courier"></p>
+<p id="minus"></p>
 
 <script>
 let wq = -Infinity;
@@ -147,10 +155,11 @@ document.getElementById("minus").innerHTML =
 </script>
 <!-- End of Value -Infinity was converted -->
 <hr>
+
 <!-- Start Value "" to be converted -->
 <p>Converting an empty string to other types:</p>
 
-<p id="empty" style="font-family:courier"></p>
+<p id="empty"></p>
 
 <script>
 let we = "";
@@ -161,10 +170,11 @@ document.getElementById("empty").innerHTML =
 </script>
 <!-- End of Value "" was converted -->
 <hr>
+
 <!-- Start Value "20" to be converted -->
 <p>Converting a numeric string to other types:</p>
 
-<p id="ttwenty" style="font-family:courier"></p>
+<p id="ttwenty"></p>
 
 <script>
 let tw = "20";
@@ -175,10 +185,11 @@ document.getElementById("ttwenty").innerHTML =
 </script>
 <!-- End of Value "20" was converted -->
 <hr>
+
 <!-- Start Value "Twenty" to be converted -->
 <p>Converting a text string to other types:</p>
 
-<p id="song" style="font-family:courier"></p>
+<p id="song"></p>
 
 <script>
 let tr = "twenty";
@@ -192,7 +203,7 @@ document.getElementById("song").innerHTML =
 <!-- Start Value null to be converted -->
 <p>Converting null to other types:</p>
 
-<p id="nu" style="font-family:courier"></p>
+<p id="nu"></p>
 
 <script>
 let nn = null;
@@ -203,10 +214,11 @@ document.getElementById("nu").innerHTML =
 </script>
 <!-- End of Value null was converted -->
 <hr>
+
 <!-- Start Value undifined to be converted -->
 <p>Converting undefined to other types:</p>
 
-<p id="unno" style="font-family:courier"></p>
+<p id="unno"></p>
 
 <script>
 let iu = undefined;
@@ -218,6 +230,25 @@ document.getElementById("unno").innerHTML =
 <!-- End of Value undifined was converted -->
 <hr>
 
+<h1>Part Two</h1>
+<h3>Challenge 1: Create an Age Calculator</h3>
+<p>Please see in console log</p>
+
+<script>
+   // Store birth year and future year in variables
+const birthYear = 1992;
+const futureYear = 2026;
+
+// Calculate the age range from birth year to future year
+const ageRange = futureYear - birthYear;
+
+// Display the possible ages for the future year in the console
+console.log(`If you were born in ${birthYear}, then in ${futureYear} you will be between ${ageRange - 1} and ${ageRange} years old.`);
+
+</script>
+<hr>
+
+<h3>Challenge 2: Create an information card</h3>
 
 </body>
 </html>
